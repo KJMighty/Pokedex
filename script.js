@@ -46,8 +46,9 @@ const createPokemonCard = (pokemon) => {
 	pokemonEl.style.backgroundColor = color;
 
 	// Normal and shiny sprite URLs
-	const normalSprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`;
-	const shinySprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${pokemon.id}.png`;
+	const normalSprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.id}.png`
+	const shinySprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/${pokemon.id}.png`
+
 
 	const pokemonInnerHTML = `
 		<div class="img-container">
